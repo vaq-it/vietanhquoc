@@ -54,7 +54,7 @@
     }
   },
   "hero": {
-    "title": "Hãy Cùng Ngoại Ngữ Việt Anh Quốc Chắp Cánh Tương Lai",
+     "title": "  ",
     "description": "Chương trình Anh ngữ Thiếu niên giúp học viên bứt phá kỹ năng Anh ngữ học thuật, tự tin chinh phục các kỳ thi quốc tế và sẵn sàng cho các bậc học cao hơn.",
     "bannerImage": "images/banner.jpg",
     "cta": {
@@ -177,7 +177,7 @@
     },
     "faculty": {
       "title": "Đội ngũ giảng viên",
-      "description": "Đội ngũ giảng viên có trình độ, chuyên môn cao; chứng chỉ TESOL, CELTA, IELTS Trainer; phong cách giảng dạy chuyên nghiệp, hiện đại."
+      "description": "Đội ngũ giáo viên Việt Nam và Quốc tế được tuyển chọn kỹ lưỡng, sở hữu đầy đủ bằng cấp chuyên môn, giàu kinh nghiệm giảng dạy và phương pháp đào tạo hiện đại, tận tâm mang đến môi trường học tiếng Anh hiệu quả và chất lượng cho học viên."
     },
     "facilities": {
       "title": "Cơ sở vật chất",
@@ -190,7 +190,7 @@
     },
     "philosophy": {
       "title": "Khẩu hiệu / Triết lý giáo dục",
-      "content": "Học tiếng Anh không chỉ là học ngôn ngữ, mà còn là chìa khóa mở rộng ra thế giới."
+      "content": "Don't Be Normal, Be Amazing!"
     }
   },
   "aboutUsPage": {
@@ -229,78 +229,133 @@
   "gallery": {
     "title": "Hình ảnh",
     "images": [
-      "images/activities/activity1.jpg",
-      "images/activities/activity2.jpg",
-      "images/activities/activity3.jpg",
-      "images/activities/activity4.jpg",
-      "images/activities/activity5.jpg",
-      "images/activities/activity6.jpg",
-      "images/activities/activity7.jpg",
-      "images/activities/activity8.jpg"
+      "images/activities/hoatdong1-hocvien11/1.jpg",
+        "images/activities/hoatdong1-hocvien11/2.jpg",
+        "images/activities/hoatdong1-hocvien11/3.jpg",
+        "images/activities/hoatdong1-hocvien11/4.jpg",
+        "images/activities/hoatdong1-hocvien11/5.jpg",
+        "images/activities/hoatdong1-hocvien11/6.jpg",    
+        "images/activities/hoatdong1-hocvien11/7.jpg",
+        "images/activities/hoatdong1-hocvien11/8.jpg",    
+        "images/activities/hoatdong1-hocvien11/9.jpg",
+        "images/activities/hoatdong1-hocvien11/10.jpg",
+        "images/activities/hoatdong1-hocvien11/11.jpg",
+         "images/activities/hoatdong2-giaovien14/1.jpg",
+        "images/activities/hoatdong2-giaovien14/2.jpg",
+        "images/activities/hoatdong2-giaovien14/3.jpg",
+        "images/activities/hoatdong2-giaovien14/4.jpg",
+        "images/activities/hoatdong2-giaovien14/5.jpg",
+        "images/activities/hoatdong2-giaovien14/6.jpg",
+        "images/activities/hoatdong2-giaovien14/7.jpg",
+        "images/activities/hoatdong2-giaovien14/8.jpg",
+        "images/activities/hoatdong2-giaovien14/9.jpg",
+        "images/activities/hoatdong2-giaovien14/10.jpg",
+        "images/activities/hoatdong2-giaovien14/11.jpg",
+        "images/activities/hoatdong2-giaovien14/12.jpg",
+        "images/activities/hoatdong2-giaovien14/13.jpg",
+        "images/activities/hoatdong2-giaovien14/14.jpg",
+        "images/activities/hoatdong3-lophoc12/1.jpg",
+        "images/activities/hoatdong3-lophoc12/2.jpg",
+        "images/activities/hoatdong3-lophoc12/3.jpg",
+        "images/activities/hoatdong3-lophoc12/4.jpg",
+        "images/activities/hoatdong3-lophoc12/5.jpg",
+        "images/activities/hoatdong3-lophoc12/6.jpg",
+        "images/activities/hoatdong3-lophoc12/7.jpg",
+        "images/activities/hoatdong3-lophoc12/8.jpg",
+        "images/activities/hoatdong3-lophoc12/9.jpg",
+        "images/activities/hoatdong3-lophoc12/10.jpg",
+        "images/activities/hoatdong3-lophoc12/11.jpg",
+        "images/activities/hoatdong3-lophoc12/12.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/1.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/2.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/3.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/4.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/5.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/6.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/7.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/8.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/9.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/10.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/11.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/12.jpg"
     ]
   },
   "activities": [
     {
       "id": 1,
-      "title": "Trại hè tiếng Anh 2023",
-      "description": "Chương trình trại hè tiếng Anh kéo dài 2 tuần với nhiều hoạt động thú vị, giúp học sinh rèn luyện kỹ năng giao tiếp và phát triển tư duy sáng tạo.",
+      "title": "Hình ảnh học viên vui vẻ",
+      "description": " ",
       "images": [
-        "images/activities/activity1.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg",
-        "images/activities/activity8.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg"
+        "images/activities/hoatdong1-hocvien11/1.jpg",
+        "images/activities/hoatdong1-hocvien11/2.jpg",
+        "images/activities/hoatdong1-hocvien11/3.jpg",
+        "images/activities/hoatdong1-hocvien11/4.jpg",
+        "images/activities/hoatdong1-hocvien11/5.jpg",
+        "images/activities/hoatdong1-hocvien11/6.jpg",    
+        "images/activities/hoatdong1-hocvien11/7.jpg",
+        "images/activities/hoatdong1-hocvien11/8.jpg",    
+        "images/activities/hoatdong1-hocvien11/9.jpg",
+        "images/activities/hoatdong1-hocvien11/10.jpg",
+        "images/activities/hoatdong1-hocvien11/11.jpg"
       ]
     },
     {
       "id": 2,
-      "title": "Cuộc thi hùng biện tiếng Anh",
-      "description": "Cuộc thi thường niên giúp học sinh phát triển kỹ năng thuyết trình và tự tin nói tiếng Anh trước đám đông. Học sinh được chuẩn bị kỹ lưỡng và nhận được sự hướng dẫn từ các giáo viên giàu kinh nghiệm.",
+      "title": "Hình ảnh đội ngũ giáo viên",
+      "description": "  ",
       "images": [
-        "images/activities/activity1.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg",
-        "images/activities/activity8.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg"
+        "images/activities/hoatdong2-giaovien14/1.jpg",
+        "images/activities/hoatdong2-giaovien14/2.jpg",
+        "images/activities/hoatdong2-giaovien14/3.jpg",
+        "images/activities/hoatdong2-giaovien14/4.jpg",
+        "images/activities/hoatdong2-giaovien14/5.jpg",
+        "images/activities/hoatdong2-giaovien14/6.jpg",
+        "images/activities/hoatdong2-giaovien14/7.jpg",
+        "images/activities/hoatdong2-giaovien14/8.jpg",
+        "images/activities/hoatdong2-giaovien14/9.jpg",
+        "images/activities/hoatdong2-giaovien14/10.jpg",
+        "images/activities/hoatdong2-giaovien14/11.jpg",
+        "images/activities/hoatdong2-giaovien14/12.jpg",
+        "images/activities/hoatdong2-giaovien14/13.jpg",
+        "images/activities/hoatdong2-giaovien14/14.jpg"
       ]
     },
     {
       "id": 3,
-      "title": "Lễ hội văn hóa quốc tế",
-      "description": "Học sinh được tìm hiểu về văn hóa các nước nói tiếng Anh thông qua các hoạt động trải nghiệm thực tế, trò chơi và ẩm thực đặc trưng. Đây là cơ hội tuyệt vời để học sinh mở rộng kiến thức và giao lưu văn hóa.",
+      "title": "Hình ảnh trong lớp học",
+      "description": " ",
       "images": [
-        "images/activities/activity1.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg",
-        "images/activities/activity8.jpg",
-        "images/activities/activity2.jpg",
-        "images/activities/activity3.jpg",
-        "images/activities/activity4.jpg",
-        "images/activities/activity5.jpg",
-        "images/activities/activity6.jpg",
-        "images/activities/activity7.jpg"
+        "images/activities/hoatdong3-lophoc12/1.jpg",
+        "images/activities/hoatdong3-lophoc12/2.jpg",
+        "images/activities/hoatdong3-lophoc12/3.jpg",
+        "images/activities/hoatdong3-lophoc12/4.jpg",
+        "images/activities/hoatdong3-lophoc12/5.jpg",
+        "images/activities/hoatdong3-lophoc12/6.jpg",
+        "images/activities/hoatdong3-lophoc12/7.jpg",
+        "images/activities/hoatdong3-lophoc12/8.jpg",
+        "images/activities/hoatdong3-lophoc12/9.jpg",
+        "images/activities/hoatdong3-lophoc12/10.jpg",
+        "images/activities/hoatdong3-lophoc12/11.jpg",
+        "images/activities/hoatdong3-lophoc12/12.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hoạt động Ngoại khóa, các sự kiện",
+      "description": " ",
+      "images": [
+        "images/activities/hoatdong4-ngoaikhoa12/1.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/2.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/3.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/4.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/5.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/6.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/7.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/8.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/9.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/10.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/11.jpg",
+        "images/activities/hoatdong4-ngoaikhoa12/12.jpg"
       ]
     }
   ],
@@ -375,7 +430,7 @@
       "facebook": "https://facebook.com/NNVietAnhQuoc/",
       "zalo": "https://zalo.me/NNVietAnhQuoc"
     },
-    "copyright": "© 2025 Viet Anh Quoc. All rights reserved."
+    "copyright": "©2025 Viet Anh Quoc. All rights reserved."
   },
   "passion": {
     "title": "Môi trường học chuẩn quốc tế",
