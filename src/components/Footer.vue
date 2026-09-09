@@ -13,8 +13,7 @@
         <div class="footer-column contact-info">
           <h3>Thông tin liên hệ:</h3>
           <p><strong>Địa chỉ:</strong> {{ footer.address }}</p>
-          <p><strong>Hotline:</strong> {{ footer.phone }}</p>
-          <p><strong>Email:</strong> {{ footer.email }}</p>
+          <p><strong>Hotline:</strong> {{ footer.phone }} </p>          <p><strong>  Email:</strong> {{ footer.email }}</p>
         </div>
         
       </div>

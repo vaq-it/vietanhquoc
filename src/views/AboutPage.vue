@@ -338,13 +338,13 @@ const accent = (i) => ['red', 'yellow', 'green'][i % 3]
   margin: 10px 0;
   font-size: 1.5rem;
 }
-
+.mv-card:nth-child(1) h3 { color: var(--blue-900); }
+.mv-card:nth-child(3) h3 { color: var(--accent-red); }
 .card-brand {
   font-family: var(--font-serif);
   font-weight: 900;
   font-size: 1.4rem;
   color: var(--blue-900);
-  text-transform: uppercase;
   margin-bottom: 15px;
   line-height: 1.3;
 }
