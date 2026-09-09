@@ -54,7 +54,7 @@
     }
   },
   "hero": {
-    "title": "Hãy Cùng Ngoại Ngữ Việt Anh Quốc Chắp Cánh Tương Lai",
+     "title": "  ",
     "description": "Chương trình Anh ngữ Thiếu niên giúp học viên bứt phá kỹ năng Anh ngữ học thuật, tự tin chinh phục các kỳ thi quốc tế và sẵn sàng cho các bậc học cao hơn.",
     "bannerImage": "images/banner.jpg",
     "cta": {
@@ -177,7 +177,7 @@
     },
     "faculty": {
       "title": "Đội ngũ giảng viên",
-      "description": "Đội ngũ giảng viên có trình độ, chuyên môn cao; chứng chỉ TESOL, CELTA, IELTS Trainer; phong cách giảng dạy chuyên nghiệp, hiện đại."
+      "description": "Đội ngũ giáo viên Việt Nam và Quốc tế được tuyển chọn kỹ lưỡng, sở hữu đầy đủ bằng cấp chuyên môn, giàu kinh nghiệm giảng dạy và phương pháp đào tạo hiện đại, tận tâm mang đến môi trường học tiếng Anh hiệu quả và chất lượng cho học viên."
     },
     "facilities": {
       "title": "Cơ sở vật chất",
@@ -190,7 +190,7 @@
     },
     "philosophy": {
       "title": "Khẩu hiệu / Triết lý giáo dục",
-      "content": "Học tiếng Anh không chỉ là học ngôn ngữ, mà còn là chìa khóa mở rộng ra thế giới."
+      "content": "Don't Be Normal, Be Amazing!"
     }
   },
   "aboutUsPage": {
@@ -375,7 +375,7 @@
       "facebook": "https://facebook.com/NNVietAnhQuoc/",
       "zalo": "https://zalo.me/NNVietAnhQuoc"
     },
-    "copyright": "© 2025 Viet Anh Quoc. All rights reserved."
+    "copyright": "©2025 Viet Anh Quoc. All rights reserved."
   },
   "passion": {
     "title": "Môi trường học chuẩn quốc tế",

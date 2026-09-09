@@ -72,6 +72,29 @@
       </div>
     </section>
 
+    <section class="section achievements">
+      <div class="container">
+        <h2 class="section-title">Thành tựu & Giải thưởng</h2>
+        <div class="stats-grid">
+          <div class="stat-card fade-up">
+            <div class="stat-icon yellow"></div>
+            <div class="stat-number" data-target="5000">0</div>
+            <div class="stat-label">Học viên tốt nghiệp</div>
+          </div>
+          <div class="stat-card fade-up">
+            <div class="stat-icon red"></div>
+            <div class="stat-number" data-target="120">0</div>
+            <div class="stat-label">Giải thưởng & chứng nhận</div>
+          </div>
+          <div class="stat-card fade-up">
+            <div class="stat-icon yellow"></div>
+            <div class="stat-number" data-target="98">0</div>
+            <div class="stat-label">Tỉ lệ đạt chứng chỉ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
       <section class="section container">
       <div class="quote fade-up">
         <h2 class="section-title">{{ aboutPage.philosophy.title }}</h2>
@@ -109,6 +132,29 @@ onMounted(async () => {
   } catch (error) {
     console.error('Không thể tải file data.json:', error)
   }
+
+  const animateCount = (el) => {
+    const target = parseInt(el.getAttribute('data-target') || '0')
+    let current = 0
+    const step = Math.max(1, Math.floor(target / 60))
+    const tick = () => {
+      current = Math.min(target, current + step)
+      el.textContent = current.toString()
+      if (current < target) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCount(entry.target)
+        observer.unobserve(entry.target)
+      }
+    })
+  }, { threshold: 0.6 })
+
+  document.querySelectorAll('.stat-number').forEach(el => observer.observe(el))
 })
 
 const accent = (i) => ['red', 'yellow', 'green'][i % 3]
@@ -421,6 +467,32 @@ const accent = (i) => ['red', 'yellow', 'green'][i % 3]
   box-shadow: 0 10px 20px rgba(0, 61, 130, 0.12);
   padding: 24px;
 }
+
+.achievements {
+  background: #002855;
+  color: #ffffff;
+}
+.achievements .section-title { color: #ffffff; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-icon { width: 56px; height: 56px; border-radius: 50%; margin: 0 auto 12px; background: linear-gradient(135deg, var(--blue-500), var(--blue-accent)); }
+.stat-icon.yellow { background: linear-gradient(135deg, #FFD54F, var(--accent-yellow)); }
+.stat-icon.red { background: linear-gradient(135deg, #ff6b6b, var(--accent-red)); }
+
+.stat-number { font-size: 2.4rem; font-weight: 800; background: linear-gradient(90deg, #ffffff, #cfe8ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.stat-label { opacity: 0.9; }
 
 .btn {
   display: inline-block;
