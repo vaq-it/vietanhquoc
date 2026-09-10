@@ -313,6 +313,7 @@ onMounted(async () => {
   font-size: 2.2rem;
   margin: 0 0 16px;
   font-weight: 800;
+  color: #ffffff;
 }
 
 .cta-section p {
