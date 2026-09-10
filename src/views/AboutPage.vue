@@ -56,7 +56,7 @@
         </div>
         <div class="split-image fade-up">
           <div class="frame">
-            <img :src="`${baseUrl}images/teacher/giang-vien.png`" alt="Teacher" />
+            <img :src="`${baseUrl}images/teacher/giaovien.jpg`" alt="Teacher" />
           </div>
         </div>
       </div>
