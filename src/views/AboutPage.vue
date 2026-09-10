@@ -75,7 +75,8 @@
       <section class="section container">
       <div class="quote fade-up">
         <h2 class="section-title">{{ aboutPage.philosophy.title }}</h2>
-        <p class="quote-text">“{{ aboutPage.philosophy.content }}”</p>
+        <p  v-if="aboutPage.philosophy.content" class="quote-text">
+      “{{ aboutPage.philosophy.content }}” </p>
       </div>
     </section>
 
